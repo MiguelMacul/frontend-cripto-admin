@@ -1,1 +1,1 @@
-# front-cripto-admin
+# frontend-cripto-admin

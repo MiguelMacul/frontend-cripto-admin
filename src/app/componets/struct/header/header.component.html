@@ -1,0 +1,23 @@
+<div class="header">
+  <nav class="navbar navbar-light">
+    <li class="navbar-brand">
+      <a routerLink="/"><img src="../../../../assets/imagenes/icono.png" width="30" height="30" alt="">
+        <span href="/"> {{'Cryptocurrency' | uppercase}}</span></a>
+    </li>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <app-list-cripto>
+        </app-list-cripto>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/login"> {{'inicia sesió' | uppercase}} <span
+            class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <form action="" (ngSubmit)="onSubmit()">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> {{'crear cuenta' | uppercase}}</button>
+        </form>
+      </li>
+    </ul>
+  </nav>
+</div>

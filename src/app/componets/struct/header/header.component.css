@@ -1,0 +1,29 @@
+ul > li {
+    display: inline-block;
+
+}
+div > div{
+    width: 100%;
+}
+.header{
+    margin-top: 40px;
+}
+a{
+    color: black !important;
+}
+button{
+    background-color: rgb(78, 188, 66) !important;
+    color: white !important;
+    border-radius: 20px  !important;
+    padding-top: 8% !important;
+    padding-bottom: 8% !important;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+.head-dentro{
+    padding-top: 1%!important;
+}
+button:hover{
+    background-color: #1d993c !important;
+    
+}

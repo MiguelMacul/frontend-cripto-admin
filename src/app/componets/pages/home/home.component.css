@@ -1,0 +1,8 @@
+.text-principal{
+    display: flex;
+    justify-content: end;
+  align-self: center;
+}
+.home{
+  padding-bottom: 5%;
+}

@@ -32,7 +32,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../src/assets/bootstrap-4.0.0/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
